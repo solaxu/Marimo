@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{473a484c-85e9-4d94-9ce6-bfa9d356e550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattner">
+      <UniqueIdentifier>{d579b456-bd31-49a8-8ae0-6dc3cc9900cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{03fff14d-eecb-428b-89fa-e8fa06d00b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{a8b5936a-fa68-4b10-9ef6-4fbefa0d498a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{bf1da68d-0977-42e0-879c-f9f3dc29ee8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\GraphicResDX12">
+      <UniqueIdentifier>{12976da0-653c-423e-930e-16ab5f34519a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Platform\PlatformWin32.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Win32EngineTimer.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderDeviceDX12.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\WindowEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\FrameEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GraphicResDX12\IGraphicsResourceDX12.cpp">
+      <Filter>Renderer\GraphicResDX12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Platform\PlatformWin32.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\PlatformWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32EngineTimer.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\EngineTimer.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\IRenderDevice.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\IRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderDeviceDX12.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\WindowEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\FrameEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\IGraphicsResource.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GraphicResDX12\GraphicsResourceDescriptorDX12.h">
+      <Filter>Renderer\GraphicResDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GraphicResDX12\GraphicsResourceTextureDX12.h">
+      <Filter>Renderer\GraphicResDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GraphicResDX12\GraphicsResourceBufferDX12.h">
+      <Filter>Renderer\GraphicResDX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GraphicResDX12\IGraphicsResourceDX12.h">
+      <Filter>Renderer\GraphicResDX12</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
